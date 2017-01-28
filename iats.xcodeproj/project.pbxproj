@@ -54,6 +54,9 @@
 		DB06DFC31E3D64E100B853EC /* iats */ = {
 			isa = PBXGroup;
 			children = (
+				DB06DFD81E3D66E900B853EC /* Controllers */,
+				DB06DFD71E3D66E200B853EC /* Views */,
+				DB06DFD61E3D66D700B853EC /* CustomViews */,
 				DB06DFC41E3D64E100B853EC /* AppDelegate.swift */,
 				DB06DFC61E3D64E100B853EC /* ViewController.swift */,
 				DB06DFC81E3D64E100B853EC /* Main.storyboard */,
@@ -62,6 +65,27 @@
 				DB06DFD01E3D64E100B853EC /* Info.plist */,
 			);
 			path = iats;
+			sourceTree = "<group>";
+		};
+		DB06DFD61E3D66D700B853EC /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		DB06DFD71E3D66E200B853EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DB06DFD81E3D66E900B853EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
