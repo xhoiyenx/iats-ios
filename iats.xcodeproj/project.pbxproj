@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		DB06DFC51E3D64E100B853EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06DFC41E3D64E100B853EC /* AppDelegate.swift */; };
-		DB06DFC71E3D64E100B853EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06DFC61E3D64E100B853EC /* ViewController.swift */; };
 		DB06DFCA1E3D64E100B853EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB06DFC81E3D64E100B853EC /* Main.storyboard */; };
 		DB06DFCC1E3D64E100B853EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB06DFCB1E3D64E100B853EC /* Assets.xcassets */; };
 		DB06DFCF1E3D64E100B853EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB06DFCD1E3D64E100B853EC /* LaunchScreen.storyboard */; };
+		DB06DFDB1E3D6C0100B853EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06DFDA1E3D6C0100B853EC /* LoginViewController.swift */; };
+		DB06DFE01E3D6E2500B853EC /* Effra_Std_Lt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB06DFDF1E3D6E2500B853EC /* Effra_Std_Lt.ttf */; };
+		DB06DFE21E3D76E600B853EC /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06DFE11E3D76E600B853EC /* ForgotViewController.swift */; };
+		DB06DFE41E3DDC1200B853EC /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06DFE31E3DDC1200B853EC /* IntroViewController.swift */; };
+		DB06DFE61E3E3E2900B853EC /* IntroContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06DFE51E3E3E2900B853EC /* IntroContentViewController.swift */; };
+		DBC553EE1E3EAA4000D2EF3A /* TncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC553ED1E3EAA4000D2EF3A /* TncViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB06DFC11E3D64E100B853EC /* iats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB06DFC41E3D64E100B853EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB06DFC61E3D64E100B853EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB06DFC91E3D64E100B853EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB06DFCB1E3D64E100B853EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB06DFCE1E3D64E100B853EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB06DFD01E3D64E100B853EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB06DFDA1E3D6C0100B853EC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DB06DFDF1E3D6E2500B853EC /* Effra_Std_Lt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Effra_Std_Lt.ttf; sourceTree = "<group>"; };
+		DB06DFE11E3D76E600B853EC /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		DB06DFE31E3DDC1200B853EC /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		DB06DFE51E3E3E2900B853EC /* IntroContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroContentViewController.swift; sourceTree = "<group>"; };
+		DBC553ED1E3EAA4000D2EF3A /* TncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TncViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +64,12 @@
 		DB06DFC31E3D64E100B853EC /* iats */ = {
 			isa = PBXGroup;
 			children = (
+				DB06DFDC1E3D6D0400B853EC /* Resources */,
+				DB06DFD91E3D6AE200B853EC /* Storyboards */,
 				DB06DFD81E3D66E900B853EC /* Controllers */,
 				DB06DFD71E3D66E200B853EC /* Views */,
 				DB06DFD61E3D66D700B853EC /* CustomViews */,
 				DB06DFC41E3D64E100B853EC /* AppDelegate.swift */,
-				DB06DFC61E3D64E100B853EC /* ViewController.swift */,
 				DB06DFC81E3D64E100B853EC /* Main.storyboard */,
 				DB06DFCB1E3D64E100B853EC /* Assets.xcassets */,
 				DB06DFCD1E3D64E100B853EC /* LaunchScreen.storyboard */,
@@ -71,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = CustomViews;
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		DB06DFD71E3D66E200B853EC /* Views */ = {
@@ -84,8 +95,28 @@
 		DB06DFD81E3D66E900B853EC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DB06DFDA1E3D6C0100B853EC /* LoginViewController.swift */,
+				DB06DFE11E3D76E600B853EC /* ForgotViewController.swift */,
+				DB06DFE31E3DDC1200B853EC /* IntroViewController.swift */,
+				DB06DFE51E3E3E2900B853EC /* IntroContentViewController.swift */,
+				DBC553ED1E3EAA4000D2EF3A /* TncViewController.swift */,
 			);
-			name = Controllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB06DFD91E3D6AE200B853EC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		DB06DFDC1E3D6D0400B853EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB06DFDF1E3D6E2500B853EC /* Effra_Std_Lt.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB06DFCF1E3D64E100B853EC /* LaunchScreen.storyboard in Resources */,
+				DB06DFE01E3D6E2500B853EC /* Effra_Std_Lt.ttf in Resources */,
 				DB06DFCC1E3D64E100B853EC /* Assets.xcassets in Resources */,
 				DB06DFCA1E3D64E100B853EC /* Main.storyboard in Resources */,
 			);
@@ -161,8 +193,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB06DFC71E3D64E100B853EC /* ViewController.swift in Sources */,
+				DBC553EE1E3EAA4000D2EF3A /* TncViewController.swift in Sources */,
+				DB06DFDB1E3D6C0100B853EC /* LoginViewController.swift in Sources */,
+				DB06DFE61E3E3E2900B853EC /* IntroContentViewController.swift in Sources */,
 				DB06DFC51E3D64E100B853EC /* AppDelegate.swift in Sources */,
+				DB06DFE21E3D76E600B853EC /* ForgotViewController.swift in Sources */,
+				DB06DFE41E3DDC1200B853EC /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +360,7 @@
 				DB06DFD51E3D64E100B853EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
